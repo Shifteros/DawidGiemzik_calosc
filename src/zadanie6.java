@@ -2,17 +2,18 @@ import java.util.Scanner;
 
 public class zadanie6 {
     public static void main(String[] args) {
-        Scanner klaw = new Scanner(System.in);
 
-        int p1 = 3 * 4;
-        int p2 = 3 * 4;
-        int p3 = 2 * 3;
-        int p4 = 2 * 2;
+        int a, b, c, d, e;
+        a = 3 * 4;
+        b = a;
+        c = 2 * 3;
+        d = 2 * 2;
+        e = a + b + c + d;
 
-        System.out.println("pomieszczenie 1 ma wymiar" + p1);
-        System.out.println("pomieszczenie 1 ma wymiar" + p2);
-        System.out.println("pomieszczenie 1 ma wymiar" + p3);
-        System.out.println("pomieszczenie 1 ma wymiar" + p4);
+        double f = (double) e / 4;
+
+
+        System.out.println("Powierzchnia przypadająca na jedną osobe to: " + f + "m2");
 
 
     }
